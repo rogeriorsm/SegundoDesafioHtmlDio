@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entre em contato</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="horarios.html">Atendimento</a></li>
+                <li><a href="contato.html">Fale Conosco</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img id="Image-header" src="src/img/header_contato.jpg" alt="Cabeçalho da página" width="1000px"
+                    height="165px">
+            </div>
+
+            <div class="content">
+                <div id="Contato">
+                    <h3>Contatos</h3>
+                    <b>Telefone:</b> (21) 2222-2222 <br>
+                    <b>Whatsapp:</b> (21) 17171-7171
+                </div>
+                <div id="Endereco" style="margin-top: 25px;">
+                    <b>Endereço: </b>Rua das Couves, 1111 - Brejo de Dentro - Rio de Janeiro - RJ - CEP 25777-999 <br>
+                    <b>E-mail: </b>contato@clinicatchurubil.com.br
+                </div>
+                <div id="iframe-endereco" style="margin-top: 25px;">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.028597159732!2d-43.259868925882664!3d-22.875401979277118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997c1ea0a57c85%3A0xc243a3923a3f731a!2sAv.%20dos%20Democr%C3%A1ticos%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1707739310224!5m2!1spt-BR!2sbr"
+                        width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div id="form-contato" style="margin-top: 25px;">
+                    <form action="/paginanaoexiste.php" method="post">
+                        <div>
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" />
+                          </div>
+                          <div>
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" />
+                          </div>
+                          <div>
+                            <label for="assunto">Assunto:</label>
+                            <input type="text" id="assunto" />
+                          </div>
+                          <div>
+                            <label for="mensagem">Mensagem:</label> <br>
+                            <textarea id="mensagem"></textarea>
+                          </div>
+                          <div class="button">
+                            <button type="submit">Enviar sua mensagem</button>
+                            <button type="reset">Limpar</button>
+                          </div>
+                    </form>
+                </div>
+
+
+            </div>
+
+            <div class="footer">
+                <div class="div-footer">
+                    <a href="https://wa.me/5521171717171">
+                        <img src="src/img/zap.jpg" alt="Icone do Whatsapp" width="30px">
+                    </a>
+                </div>
+                <div class="div-footer">
+                    <p>
+                        Rua das Couves, 1111 - Brejo de Dentro <br>
+                        Rio de Janeiro - RJ - CEP 25777-999 <br>
+                        e-mail: contato@clinicatchurubil.com.br
+                    </p>
+                </div>
+                <div class="div-footer"><img src="src/img/telefone.png" alt="Icone de telefone" width="30px"> (21)
+                    2222-2222</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
